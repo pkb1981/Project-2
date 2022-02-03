@@ -1,9 +1,10 @@
 /* whole body change */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
- 
+    font-family: 'Raleway', sans-serif;
 }
 /* 1st part starts here */
 nav{
@@ -41,13 +42,14 @@ nav{
     justify-content:center;
     align-items:flex-start;
     gap: 20px;
-    margin:0 30px;
+    margin:10px 30px;
 }
 .push-button{
-    padding:10px 30px;
-    background-color:rgb(248, 5, 98);
-    border-radius: 20px; 
+    padding:7px 30px;
+    background-color:#E02C6D;
+    border-radius: 30px; 
     color:#fff;
+    border:0;
 }
 .camera-right{
     display: flex;
@@ -66,4 +68,59 @@ nav{
 .logos{
     margin:0 30px;
 }
-/* part 4 starts here */
+/* part 4 starts here*/
+.section-title h1{
+    margin:30px 0;
+    text-align: center
+  } 
+  
+  .star{
+    color: #FB8200;
+}
+
+.banner-all{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    }
+    .banner{
+        padding: 20px 20px 25px 35px;
+        margin: 10px 20px;
+        background: #FFF;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+             }
+     
+     .more{
+         text-align:end;
+         color: #E02C6DDE;
+     }
+     .more small{
+         font-weight:bolder;
+     }
+   /* part 5 starts here */
+   .feature{
+       display:grid;
+       grid-template-columns: repeat(2,1fr);
+       margin: 20px 20px;
+   }
+   .feature-left img{
+       width:80%;
+        border-radius: 10px;
+   }
+    .feature-right h1,p{
+       padding: 10px 0;
+   }
+   .feature-right h1{
+       font-weight:900;
+   }
+
+/* 6th part starts here */
+footer{
+    background-color:rgb(8, 8, 22);
+    color: #fff;
+    text-align: center;
+    
+}
+.social i{
+    padding:10px 10px;
+}
